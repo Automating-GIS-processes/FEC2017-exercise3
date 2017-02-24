@@ -1,13 +1,13 @@
 # Exercise 3: Functions
 
-In problem 2 you are asked to create a simple tool that converts temperatures from one temperature-type to another.
-After making your changes, you will need to upload these files to GitHub.
+In **problem 1** we will practice how to define very simple functions in order to remind ourselves about the basic syntax (input parameters, indentation, return value). In **problem 2** you are asked to create a simple tool that converts temperatures from one temperature-type to another.
+After making your changes, remember to upload the files to GitHub.
 
 ## Problem 1 - simple functions
 
 Create a script file my_functions.py and define the following functions in it:
 
- 1. A function `congrats(name) which takes a string variable `name` as input and prints out "Onnea nimi!" when called.
+ 1. A function `congrats(name)` which takes a string variable `name` as input and prints out "Onnea nimi!" when called.
  Usage should look like this:
 
  ```Python
@@ -25,8 +25,15 @@ Create a script file my_functions.py and define the following functions in it:
  Out[]: 90
  ```
 
- 3. A function which takes circle radius as input and returns the circle area.
+ 3. A function ``circleArea(radius)`` which takes circle radius as input and returns the circle area.
 
+ Usage should look something like this:
+
+ ```Python
+ In[]: r = 100
+ In[]: print("The area for a circle with a radius of " + str(r) + " mm is " + str(circleArea(r))+" mm^2")
+ Out[]: The area for a circle with a radius of 100 mm is 31415.926 mm^2
+ ```
 
 ## Problem 2 - Temperature calculator
 
