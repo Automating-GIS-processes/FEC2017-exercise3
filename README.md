@@ -31,14 +31,14 @@ Create a script file my_functions.py and define the following functions in it:
 
  ```Python
  In[]: r = 100
- In[]: print("The area for a circle with a radius of " + str(r) + " mm is " + str(circleArea(r))+" mm^2")
- Out[]:"The area for a circle with a radius of 100 mm is 31415.926 mm^2"
+ In[]: print('The area for a circle with a radius of '' + str(r) + '' mm is '' + str(circleArea(r))+' mm^2')
+ Out[]:'The area for a circle with a radius of 100 mm is 31415.926 mm^2'
  ```
 
 ## Problem 2 - Temperature calculator
 
 The task is to create a temperature calculator that is used for converting temperatures between Celsius, Fahrenheit and Kelvin.
-You are asked to modify and add functionalities to the functions in [temp_converter.py](temp_converter.py) -file. The temp_converter.py -script is **broken** in its current state, 
+You are asked to modify and add functionality to the functions in [temp_converter.py](temp_converter.py) -file. The temp_converter.py -script is **broken** in its current state,
 thus we want you to fix it by going through the tasks denoted with numbers in the script (1-4). The comments in the script will guide you, and instruct what to do in different parts of the code. 
 There are missing parts in the code denoted with _**XX**_ letters. Modify the script and add your own code to places where letters _**XX**_ are present.  
 
@@ -79,7 +79,7 @@ outputs:
   Temperature -20 in Fahrenheit is -28.88888888888889 in Celsius
   ```
 
-**Upload your updated _temp_converter.py_ -script to your personal GitHub repository.** 
+**Remember to upload your updated _temp_converter.py_ -script to your personal GitHub repository after major changes!**
   
 _**Note**_:
 
@@ -97,4 +97,6 @@ In addition to providing your updated temp_converter.py script, we wish you to t
 
 ## EXTRA TASKS RELATED TO GEOMETRIC OBJECTS AND FUNCTIONS
 
-If you wish to dive deeper into functions and geometric objects in python, you can have a look at [Lesson 1](https://automating-gis-processes.github.io/2016/Lesson1-Geometric-Objects.html>)  and [Exercise 1](https://automating-gis-processes.github.io/2016/Exercise-1.html>) from the extensive version of the Automating GIS processes course-
+If you wish to dive deeper into functions and geometric objects in Python, you can have a look at materials from the extensive version of the Automating GIS processes course:
+- [Lesson 1: Geometric Objects](https://automating-gis-processes.github.io/2016/Lesson1-Geometric-Objects.html>)
+- [Exercise 1: Working with Geometric Objects](https://automating-gis-processes.github.io/2016/Exercise-1.html>)
