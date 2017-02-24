@@ -8,6 +8,16 @@ After making your changes, remember to upload the files to GitHub.
 Create a script file my_functions.py and define the following functions in it:
 
  1. A function `congrats(name)` which takes a string variable `name` as input and prints out "Onnea nimi!" when called.
+
+ Your code should look something like this:
+
+  ```Python
+ def congrats(name):
+    #Define below the print command. Pay attention to indentation!
+
+  ```
+
+
  Usage should look like this:
 
  ```Python
@@ -30,10 +40,19 @@ Create a script file my_functions.py and define the following functions in it:
  Usage should look something like this:
 
  ```Python
- In[]: r = 100
- In[]: print('The area for a circle with a radius of '' + str(r) + '' mm is '' + str(circleArea(r))+' mm^2')
+ In[]: r = 10
+ In[]: print('The area for a circle with a radius of ' + str(r) + ' mm is ' + str(circleArea(r))+' mm^2')
  Out[]:'The area for a circle with a radius of 100 mm is 31415.926 mm^2'
  ```
+
+ You can also try what happens is you call this command:
+
+  ```Python
+    for x in range(5):
+        print(circleArea(x))
+        ...:
+  ```
+
 
 ## Problem 2 - Temperature calculator
 
