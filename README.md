@@ -32,7 +32,7 @@ Create a script file my_functions.py and define the following functions in it:
  ```Python
  In[]: r = 100
  In[]: print("The area for a circle with a radius of " + str(r) + " mm is " + str(circleArea(r))+" mm^2")
- Out[]: The area for a circle with a radius of 100 mm is 31415.926 mm^2
+ Out[]:"The area for a circle with a radius of 100 mm is 31415.926 mm^2"
  ```
 
 ## Problem 2 - Temperature calculator
